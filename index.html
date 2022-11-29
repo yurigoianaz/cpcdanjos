@@ -9,12 +9,12 @@
 	<link rel="stylesheet" href="./bootstrap-icons.css">
 	
 	<style>
-		body,
+		body {background-color:#111},
 		td,
 		th {
 			font-size: 14px;
 			font-family: tahoma;
-			color: #666;
+			color: rgb(0, 0, 0);
 			cursor: default;
 			vertical-align: baseline;
 			outline: 0;
@@ -31,7 +31,7 @@
 		a:hover {
 			font-family: tahoma;
 			font-size: 14px;
-			color: #666;
+			color: rgb(0, 0, 0);
 			text-decoration: none;
 		}
 
@@ -53,7 +53,7 @@
 		del,
 		dfn,
 		em,
-		font,
+		font {font-family: 'Segoe UI';color: rgb(255, 255, 255);},
 		img,
 		ins,
 		kbd,
@@ -124,10 +124,10 @@
 			display: none;
 			overflow: auto;
 			position: fixed;
-			border-top: 12px solid #111;
-			border-left: 12px solid #111;
-			border-right: 12px solid #111;
-			border-bottom: 40px solid #111;
+			border-top: 12px solid rgb(255, 255, 255);
+			border-left: 12px solid rgb(255, 255, 255);
+			border-right: 12px solid rgb(255, 255, 255);
+			border-bottom: 40px solid rgb(255, 255, 255);
 			transform: translate(-50%, -50%);
 			background: #FFB90F;
 		}
@@ -214,7 +214,7 @@
 			font-size: 20px;
 			font-weight: 700;
 			padding: 5px 0 10px 15px;
-			border-bottom: 1px dashed #999;
+			border-bottom: 1px dashed rgb(255, 255, 255);
 		}
 
 		.stitle {
@@ -278,7 +278,7 @@
 			font-size: 20px;
 			font-weight: 700;
 			padding: 5px 0 10px 15px;
-			border-bottom: 1px dashed #999;
+			border-bottom: 1px dashed rgb(255, 255, 255);
 			margin: 0 0 15px;
 		}
 
@@ -289,7 +289,7 @@
 			font-weight: 700;
 			text-align: center;
 			padding: 5px 0 10px 0;
-			border-bottom: 1px dashed #999;
+			border-bottom: 1px dashed rgb(255, 255, 255);
 			margin: 0 0 15px;
 		}
 
@@ -300,7 +300,7 @@
 			font-weight: 700;
 			text-align: center;
 			padding: 5px 0 10px 0;
-			border-bottom: 1px dashed #999;
+			border-bottom: 1px dashed rgb(255, 255, 255);
 			margin: 0 0 15px;
 		}
 
@@ -310,7 +310,7 @@
 			font-size: 20px;
 			font-weight: 700;
 			padding: 5px 0 10px 15px;
-			border-bottom: 1px dashed #999;
+			border-bottom: 1px dashed rgb(255, 255, 255);
 			margin: 0 0 15px;
 		}
 
@@ -345,8 +345,8 @@
 		}
 		.quadro button {
 			border: 0;
-			background-color: #000000;
-			color: #fff;
+			background-color: #ffffff;
+			color: rgb(19, 19, 19);
 			padding: 7px 30px;
 			margin-bottom: 15px;
 			border-bottom: 3px rgb(51, 204, 255) solid;
@@ -387,7 +387,7 @@
 	<title>Calculadora Penal - Cidade dos Anjos</title>
 	<link rel="icon" type="image/x-icon" href="https://i.imgur.com/7jKNDI5.png">
 
-<center><img src="https://i.imgur.com/0ffqV2W.png" width="360" height="230">
+<center><img src="https://i.imgur.com/i0LngNR.png" width="360" height="230">
 </div></div></center><br><br>
 	<div id="1" class="fc quadro form-control">
 		<h3>
@@ -978,9 +978,9 @@
 	</div>
 	<div class="quadro form-control">
 		<h3>
-			<font color="#000000"> 🧮 CALCULADORA</font>
+			<font color="#131313"> 🧮 CALCULADORA</font>
 		</h3>
-		<font color="#000000">
+		<font color="131313">
 			<h4>⚖️ PENA:</h4>
 			<input type="text" id="pena" name="pena" class="form-control" readonly="true" size="2" style="margin-right:5px">
 				<div class="alert alert-success" id="penamaxima" style="display: none;" role="alert">
@@ -999,16 +999,16 @@
 				<h3>CRIMES (ARTIGOS SELECIONADOS):</h3>
 				<textarea rows="10" cols="50" style="resize: none;" readonly="true" maxlength="500" id="copy-text" class="TextoArtigos form-control"></textarea>
 
-				<br> <button class="btn btn-success" id="copy"> <i class="bi bi-clipboard"></i> Copiar</button>
+				<br> <button class="btn btn-success" id="copy"> </i>Copiar</button>
 						
 				<div class="alert alert-success" id="copiado" style="display: none;" role="alert">
 					Copiado com sucesso
 				</div>
 				<h3>
-					<font color="#022d42">ATENUANTES:</font>
+					<font color="#131313">ATENUANTES:</font>
 				</h3>
 				<h4>
-					<font color="#b50000">
+					<font color="#131313">
 						<input type="checkbox" class="form-check-input" id="advogado-30" name="advogado-30" value="30">🔹 Advogado constituído:
 						<font color="#6f747a">Redução de 30% na pena total.
 							<div class="col col-md-12 advogado-1" style="display: none;">
